@@ -84,7 +84,7 @@ def user_input(user_question):
     )
 
     print(response)
-    st.write("Reply: ", response["output_text"])
+    st.write(response["output_text"])
 
 
 def main():
